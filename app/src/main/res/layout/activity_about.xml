@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/black_700"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About-Us"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/shapeup_logo"
+            android:layout_gravity="center"
+            android:scaleX="2"
+            android:scaleY="2"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Members : "
+            android:textColor="@color/black_700"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Rajavi Sandeep Sankpal \n2.Pratiksha Pravin Desai
+            \n3.Tejaswini Manohar Gavali\n4.Siddhi Sardar Kirulkar
+            \n5.Priyanka Bhikaji Chougale"
+            android:textColor="@color/black_700"
+            android:textSize="24sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
